@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Lost-shirt</title>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@900&family=Roboto:wght@400;700&family=Yanone+Kaffeesatz:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.min.css"> 
+</head>
+<body id="isshop">
+	<header class="header shop-header">
+		<div class="shop-top container">
+			<div class="logo"><a class="logo__link" href="index.html"><img src="img/header/logo.png" alt="Логотип"></a></div>
+			<div class="shop-pic"><img src="img/header/shop-pic.png"></div>
+			<div class="email">
+				<p>По всем вопросам пишите на:</p>
+				<a href="#" class="btn header-btn">lostinspace@mail.ru</a>
+			</div>
+		</div>
+	</header>
+
+	<main class="main shop-main container">
+		<div class="shop-product">
+			<div class="product__pic"><img src="img/product/1.png" alt="Футболка"></div>
+			<div class="product__info">
+				<div class="product__top">
+					<span class="product__brend">Футболка Hurley</span>
+					<h3 class="product__name">rICK AND mORTY</h3>
+					<div class="product__price">2000</div>
+				</div>
+				<div class="product__detail">
+					<ul class="detail__list">
+						<li class="detail__item">Состав: Хлопок 100%</li>
+						<li class="detail__item">Сезон: Мульти</li>
+						<li class="detail__item">Цвет: Черный</li>
+						<li class="detail__item">Узор: Рисунки и надписи</li>
+						<li class="detail__item">Страна производства: Россия</li>
+						<li class="detail__item">Артикул: MA002EWDOEZ6</li>
+					</ul>
+				</div>
+				<form class="product__settings" method="get">
+					<ul class="size__list">
+						<li class="size__item"><input class="btn size-btn" type="button" value="xxs"></li>
+						<li class="size__item"><input class="btn size-btn" type="button" value="xs"></li>
+						<li class="size__item"><input class="btn size-btn" type="button" value="s"></li>
+						<li class="size__item"><input class="btn size-btn" type="button" value="m"></li>
+						<li class="size__item"><input class="btn size-btn" type="button" value="l"></li>
+						<li class="size__item"><input class="btn size-btn" type="button" value="xl"></li>
+						<li class="size__item"><input class="btn size-btn" type="button" value="2xl"></li>
+						<li class="size__item"><input class="btn size-btn" type="button" value="3xl"></li>
+					</ul>
+
+					<ul class="color__list">
+						<li class="color__item"><input class="btn color-btn" id="black" style="background-color: #000;" type="button" name="Черный"><label class="color__label" for="black"></label></li>
+						<li class="color__item"><input class="btn color-btn" id="white" style="background-color: #fff;" type="button" name="белый"><label class="color__label" for="white"></label></li>
+						<li class="color__item"><input class="btn color-btn" id="green" style="background-color: #529029;" type="button" name="зеленый"><label class="color__label" for="green"></label></li>
+						<li class="color__item"><input class="btn color-btn" id="blue" style="background-color: #39498d;" type="button" name="синий"><label class="color__label" for="blue"></label></li>
+						<li class="color__item"><input class="btn color-btn" id="red" style="background-color: #d82727;" type="button" name="красный"><label class="color__label" for="red"></label></li>
+					</ul>
+
+					<button href="#" class="btn buy-btn" type="submit">Купить</button>
+				</form>
+			</div>
+		</div>
+
+		<div class="product__about container">
+			<ul class="about__list">
+				<li class="about__item"><button class="btn about-btn">описание</button></li>
+				<li class="about__item"><button class="btn about-btn">таблица размеров</button></li>
+				<li class="about__item"><button class="btn about-btn">условия доставки</button></li>
+				<li class="about__item"><button class="btn about-btn">о бренде</button></li>
+			</ul>
+		</div>
+
+		<div class="product__care">
+			<div class="care__alert">
+				<ul class="alert__list">
+					<li class="alert__item">
+						<img src="img/product/alert-1.png">
+						<p>Стирать при температуре 30°С</p>
+					</li>
+					<li class="alert__item">
+						<img src="img/product/alert-2.png">
+						<p>Не отбеливать</p>
+					</li>
+					<li class="alert__item">
+						<img src="img/product/alert-3.png">
+						<p>Гладить теплым утюгом с внутренней стороны</p>
+					</li>
+					<li class="alert__item">
+						<img src="img/product/alert-4.png">
+						<p>Не подвергать химической чистке</p>
+					</li>
+					<li class="alert__item">
+						<img src="img/product/alert-5.png">
+						<p>Не сушить в барабане</p>
+					</li>
+				</ul>
+			</div>
+			<div class="care__desc">
+				<p>Футболка из приятной ткани с качественным принтом, это одна из самых универсальных вещей <br>
+				в гардеробе. Она подойдет и для занятий спортом, и для прогулок, и для работы, если разрешен свободный<br> дресс-код.</p>
+			</div>
+		</div>
+	</main>
+
+
+	<footer class="footer container">
+		<div class="footer__menu">
+			<ul class="footer__list">
+				<li class="footer__list-title">Информация</li>
+				<li class="footer__list-item"><a href="#" class="btn footer-btn">О магазине</a></li>
+				<li class="footer__list-item"><a href="#" class="btn footer-btn">Адреса магазинов</a></li>
+				<li class="footer__list-item"><a href="#" class="btn footer-btn">Как сделать заказ?</a></li>
+				<li class="footer__list-item"><a href="#" class="btn footer-btn">Обмен и возврат</a></li>
+				<li class="footer__list-item"><a href="#" class="btn footer-btn">Отзывы</a></li>
+			</ul>
+			<ul class="footer__list">
+				<li class="footer__list-title">Футболки</li>
+				<li class="footer__list-item"><a href="#" class="btn footer-btn">Популярное</a> </li>
+				<li class="footer__list-item"><a href="#" class="btn footer-btn">Новинки</a> </li>
+				<li class="footer__list-item"><a href="#" class="btn footer-btn">Бестселлеры</a></li>
+				<li class="footer__list-item"><a href="#" class="btn footer-btn">Специальные предложения</a> </li>
+				<li class="footer__list-item"><a href="#" class="btn footer-btn">Скоро в продаже</a></li>
+			</ul>
+			<ul class="footer__list">
+				<li class="footer__list-title">Коллекции</li>
+				<li class="footer__list-item"><a href="#" class="btn footer-btn">Детская коллекция</a></li>
+				<li class="footer__list-item"><a href="#" class="btn footer-btn">Женскаяя коллекция</a></li>
+				<li class="footer__list-item"><a href="#" class="btn footer-btn">Мужская коллекция</a></li>
+				<li class="footer__list-item"><a href="#" class="btn footer-btn">Лучшие принты 2018 года</a></li>
+				<li class="footer__list-item"><a href="#" class="btn footer-btn">Лучшие принты 2019 года</a></li>
+			</ul>
+			<ul class="footer__list footer__contacts">
+				<li class="footer__list-title">Контактная информация</li>
+				<li class="footer__list-item footer-adress">Санкт-Петербург,<br> ул. Жуковского, д. 12</li>
+				<li class="footer__list-item">
+				Телефон: 8 (812) 315-72-35 <br>
+				Email: support@yourwebsite.com</li>
+			</ul>
+		</div>
+
+		<div class="footer__social">
+			<div class="social__card card-text" style="background-color: #232323;">
+				<p>Лучшие принты <br>2019 года</p>
+			</div>
+			<div class="social__card card-list" style="background-image: url(img/footer/social-bg.png);">
+				<ul class="social__list">
+					<li class="social__item" style="background-image: url(img/footer/1.png)">
+						<a href="#" class="btn social-btn" style="background-image: url(img/footer/1-active.png)"></a>
+					</li>
+					<li class="social__item" style="background-image: url(img/footer/2.png)">
+						<a href="#" class="btn social-btn" style="background-image: url(img/footer/2-active.png)"></a>
+					</li>
+					<li class="social__item" style="background-image: url(img/footer/3.png)">
+						<a href="#" class="btn social-btn" style="background-image: url(img/footer/3-active.png)"></a>
+					</li>
+					<li class="social__item" style="background-image: url(img/footer/4.png)">
+						<a href="#" class="btn social-btn" style="background-image: url(img/footer/4-active.png)"></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
